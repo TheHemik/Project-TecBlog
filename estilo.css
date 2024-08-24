@@ -1,0 +1,96 @@
+*{
+	font-family: "Sans-serif;", Arial, Verdana;
+}
+body{
+ 	background-color: #dedede; 
+}
+#principal{
+	background-color: #f7b600;
+	padding-block: 80px;
+	text-align: center;
+	margin bottom: 10px;
+
+}
+#area{
+	width: 920px;
+	margin: 0 auto ;
+
+}
+.lateral{
+	padding: 2px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	width: 240px;
+	float: right;
+}
+#post{
+	padding: 5px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	width: 660px;
+	float: left;
+}
+
+#preto, #branco{
+	display: inline;
+	text-align: center;
+	position: static;
+	font-size: 50px;
+}
+#preto{
+
+	color: black;
+}
+#branco{
+	color: white;
+}
+.links{
+    display: inline-block;
+    margin: 0 10px; 
+    font-size: 28px; 
+    margin-top: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: #f7b600;
+	padding: 5px;
+}
+#principal a:link, #principal a:visited {
+    color: #FFF;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+h2{
+	color: #f7b600;
+}
+#principal 	a:hover{
+	color: #f7b600;
+	background: #FFF;
+}
+.amarelo{
+	color: #f7b600;
+}
+
+#lateraltitulo{
+	background-color: #dedede;
+	padding: 10px;
+	margin: 3px;
+}
+a {
+    text-decoration: none;
+    color: #f7b600;
+    padding: 5px;
+}
+.lateral a {
+    color: #f7b600; /* Garantir que os links em "Categorias" também fiquem amarelos */
+}
